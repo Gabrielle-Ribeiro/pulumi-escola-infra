@@ -1,0 +1,3 @@
+config:
+  pulumi-escola:backend_port: "9000"
+  pulumi-escola:frontend_port: "8043"
