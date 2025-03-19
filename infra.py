@@ -3,7 +3,7 @@ import pulumi_docker as docker
 
 config = pulumi.Config()
 
-porta_backend = config.get_int("backend_port") or 8000
+porta_backend = config.get_int("backend_port") or 8001
 porta_frontend = config.get_int("frontend_port") or 8042
 
 network = docker.Network("escola-network")
